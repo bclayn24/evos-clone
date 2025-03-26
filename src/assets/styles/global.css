@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/inter-400.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/inter-500.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/inter-700.woff2") format("woff2");
+  }
+  @font-face {
+    font-display: swap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/inter-900.woff2") format("woff2");
+  }
+
+  ul li::marker {
+    color: #077855;
+  }
+}
+
+@layer utilities {
+  .vacancies-ellipse {
+    clip-path: ellipse(120% 49%);
+  }
+}
