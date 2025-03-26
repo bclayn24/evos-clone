@@ -6,11 +6,11 @@
     git clone https://github.com/bclayn24/evos-clone
     ```
 2.  ```bash
-     cd evos-clone
+    cd evos-clone
     ```
 3.  ```bash
-     npx json-server ./src/data/data.json --port 5174
+    npx json-server ./src/data/data.json --port 5174
     ```
 4.  ```bash
-     yarn && yarn dev
+    yarn && yarn dev
     ```
